@@ -41,7 +41,7 @@
 <br />
 ## Testing if web server functionality is working
   - open a separate command line window and use curl (Client URL) to communicate with the web server
-  - type the following command "curl 127.0.0.1:[port]/index.html"
+  - type the following command "curl 127.0.0.1:[port]/index.html" <br />
   - ![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%201.png)
   - ![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%202.png)
 
