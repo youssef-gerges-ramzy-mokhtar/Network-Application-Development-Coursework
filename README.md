@@ -1,5 +1,4 @@
 # Network-Application-Development-Coursework
-![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%202.png)
 
 ## A University Networks Coursework to develop 5 simple network-based applications:
   1. ping
@@ -43,8 +42,8 @@
 ## Testing if web server functionality is working
   - open a separate command line window and use curl (Client URL) to communicate with the web server
   - type the following command "curl 127.0.0.1:[port]/index.html" <br />
-![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%201.png) <br />
-![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%202.png)
+    ![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%201.png) <br />
+    ![App Screenshoot](https://github.com/youssef-gerges-ramzy-mokhtar/Network-Application-Development-Coursework/blob/main/screenshots/web%202.png)
 
 <br />
 ## Testing if proxy functionality is working
