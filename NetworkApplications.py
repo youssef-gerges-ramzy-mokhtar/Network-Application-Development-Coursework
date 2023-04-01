@@ -291,7 +291,7 @@ class Traceroute(NetworkApplication):
         ttl_count = 1
         hop_id = -1
         while dest_ip != hop_id and ttl_count < 30:
-            info = self.doOnePing(dest_ip, 3, ttl_count)
+            info = self.doOnePing(dest_ip, args.timeout, ttl_count)
             if info == -1:
                 print("* * *")
             else:
@@ -450,7 +450,7 @@ class Proxy(NetworkApplication):
         return server_socket
     
     def cacheServerResponse(self, serverResponse, hostname): # read about the cache also 
-        fileResponse = open(hostname, "w")
+        fileResponse = open(hostname, "w", encoding="utf-8")
         fileResponse.write(serverResponse.decode())
         fileResponse.close()
 
